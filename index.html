@@ -155,6 +155,68 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://zhangsz1998.github.io/2021/05/10/Python%E4%B8%AD%E7%9A%84copy%E4%B8%8Edeepcopy/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="zhangsz">
+      <meta itemprop="description" content="Be curious, stay humble.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Snorlax">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/05/10/Python%E4%B8%AD%E7%9A%84copy%E4%B8%8Edeepcopy/" class="post-title-link" itemprop="url">Python中的copy与deepcopy</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2021-05-10 17:35:04 / Modified: 17:47:00" itemprop="dateCreated datePublished" datetime="2021-05-10T17:35:04+08:00">2021-05-10</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="python中的copy与deepcopy">Python中的copy与deepcopy</h1>
+<p>Python在copy模块中提供的copy()与deepcopy()函数分别执行对象的浅拷贝与深拷贝。所谓的浅拷贝与深拷贝仅仅在拷贝的对象是复合对象时才有所区别，所谓的复合对象就是包含其他对象的对象(例如list/dict等)。</p>
+<p>在执行复合对象的浅拷贝时，仅对复合对象本身进行拷贝，其包含的其他对象仍与所拷贝的对象共享；而在深拷贝时，不仅对复合对象的本身进行拷贝，同时该对象包含的其他对象也被同时进行了拷贝。下图以拷贝List为例展示了深浅拷贝的区别：</p>
+<p><img src="/images/2021-05-10-Python中的copy与deepcopy/shallow&amp;deep.PNG" /></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://zhangsz1998.github.io/2021/05/07/2021-05-07-%E5%BC%82%E6%88%96%E7%9A%84%E6%80%A7%E8%B4%A8/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -468,7 +530,7 @@ xor\_sum(x)=0\oplus1\oplus2...\oplus x =
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives">
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -481,7 +543,7 @@ xor\_sum(x)=0\oplus1\oplus2...\oplus x =
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
